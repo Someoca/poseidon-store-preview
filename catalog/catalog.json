@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 2,
+  "items": [
+    {
+      "id": "nortis-ps1",
+      "name": "Nortis",
+      "category": "Jogos Homebrew",
+      "description": "Jogo original de blocos para PlayStation 1, publicado pelo desenvolvedor em formato CUE/BIN.",
+      "platforms": ["psone", "homebrew"],
+      "colors": ["#197aa3", "#152343"],
+      "releaseUrl": "https://github.com/jbreckmckye/nortis/releases/tag/build",
+      "sourceUrl": "https://github.com/jbreckmckye/nortis"
+    },
+    {
+      "id": "hoeps2",
+      "name": "HOEPS2",
+      "category": "Jogos Homebrew",
+      "description": "Jogo homebrew cooperativo de arena para PlayStation 2. A página oficial oferece builds NTSC e PAL.",
+      "platforms": ["ps2", "homebrew"],
+      "colors": ["#b84f36", "#471c38"],
+      "releaseUrl": "https://github.com/2AGamesOfficial/HOEPS2/releases/tag/v1.0",
+      "sourceUrl": "https://github.com/2AGamesOfficial/HOEPS2"
+    },
+    {
+      "id": "retroarch-ps2",
+      "name": "RetroArch",
+      "category": "Emuladores",
+      "description": "Frontend/emulador homebrew para PlayStation 2. A página oficial traz o pacote e requisitos; não inclui ROMs ou BIOS.",
+      "platforms": ["ps2", "homebrew"],
+      "colors": ["#2677b8", "#132447"],
+      "releaseUrl": "https://docs.libretro.com/guides/install-ps2/",
+      "sourceUrl": "https://github.com/libretro/RetroArch"
+    },
+    {
+      "id": "basic-water-ps3",
+      "name": "Basic Water",
+      "category": "Jogos Homebrew",
+      "description": "Simulador de voo original para PlayStation 3. O autor publica o pacote e o código-fonte na página de versões.",
+      "platforms": ["ps3", "homebrew"],
+      "colors": ["#25869e", "#10294c"],
+      "releaseUrl": "https://github.com/utkuhalis/ps3-homebrew/releases/tag/v2.0.0",
+      "sourceUrl": "https://github.com/utkuhalis/ps3-homebrew"
+    },
+    {
+      "id": "apollo-save-tool-ps3",
+      "name": "Apollo Save Tool",
+      "category": "Aplicativos",
+      "description": "Aplicativo homebrew para gerenciamento de saves no PlayStation 3. Página oficial com código-fonte e versões.",
+      "platforms": ["ps3", "homebrew"],
+      "colors": ["#2768b2", "#142447"],
+      "releaseUrl": "https://github.com/bucanero/apollo-ps3/releases/tag/v2.4.0",
+      "sourceUrl": "https://github.com/bucanero/apollo-ps3"
+    },
+    {
+      "id": "apollo-save-tool-ps4",
+      "name": "Apollo Save Tool",
+      "category": "Aplicativos",
+      "description": "Aplicativo homebrew para gerenciamento de saves no PlayStation 4. Projeto publicado sob GPL-3.0.",
+      "platforms": ["ps4", "homebrew"],
+      "colors": ["#2768b2", "#142447"],
+      "releaseUrl": "https://github.com/bucanero/apollo-ps4/releases/tag/v2.4.0",
+      "sourceUrl": "https://github.com/bucanero/apollo-ps4"
+    }
+  ]
+}

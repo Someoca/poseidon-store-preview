@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" fill="none">
+  <defs>
+    <linearGradient id="armor" x1="180" y1="190" x2="700" y2="950" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f0fdff"/><stop offset=".18" stop-color="#58d9ff"/><stop offset=".46" stop-color="#145999"/><stop offset=".74" stop-color="#0a294f"/><stop offset="1" stop-color="#030b1b"/>
+    </linearGradient>
+    <linearGradient id="hair" x1="210" y1="70" x2="680" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9fbff"/><stop offset=".3" stop-color="#26bce9"/><stop offset=".65" stop-color="#16548c"/><stop offset="1" stop-color="#07172f"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="700" y1="90" x2="780" y2="1000" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff3bb"/><stop offset=".3" stop-color="#77edff"/><stop offset="1" stop-color="#1788c8"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="matrix(0 480 -390 0 450 405)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#27bfff" stop-opacity=".45"/><stop offset="1" stop-color="#125bea" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="11" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <ellipse cx="450" cy="520" rx="390" ry="480" fill="url(#aura)"/>
+  <!-- Trident of the sea -->
+  <g stroke="url(#gold)" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <path stroke-width="13" d="M735 100v825m0-790c-65-26-93-77-80-139 55 19 85 60 80 139Zm0 0c65-26 93-77 80-139-55 19-85 60-80 139Z"/>
+    <path stroke-width="8" d="M734 234c-40-33-42-83-35-117m38 118c41-33 43-83 36-117"/>
+    <path stroke-width="4" d="M733 350v440" opacity=".7"/>
+  </g>
+  <!-- Wind-swept hair and beard -->
+  <path d="M215 247c-88-115-32-218 73-224-23-31 19-73 70-61 45-45 108-24 115 28 62-40 124 3 105 56 96 16 115 128 41 194-26 27-39 61-41 100l-71-35-206 31-94-89 8-0Z" fill="url(#hair)" stroke="#91edff" stroke-opacity=".8" stroke-width="7"/>
+  <path d="M267 226c67-48 119-123 147-205m-108 227c65-54 119-119 158-193m-60 202c49-54 90-108 117-169m-62 177c37-38 68-79 93-128" stroke="#c8f9ff" stroke-opacity=".42" stroke-width="7" stroke-linecap="round"/>
+  <path d="M318 454c15 100-15 145-51 221 40 122 72 201 121 284l57-170 57 170c55-78 91-171 129-284-42-78-68-131-53-221l-82 46H389l-71-46Z" fill="url(#hair)" stroke="#82e6ff" stroke-width="7"/>
+  <!-- Crown and face -->
+  <path d="m300 217 70-120 54 75 59-120 51 120 73-78 9 151-81 80H372l-72-108Z" fill="url(#gold)" stroke="#d2fbff" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M323 260c8-54 48-84 127-84 84 0 124 34 131 84l-21 121c-8 69-54 111-110 111-60 0-103-43-111-111l-16-121Z" fill="url(#armor)" stroke="#b6f4ff" stroke-width="7"/>
+  <path d="m357 303 61-16-37 32m141-16-61-16 37 32" stroke="#cffaff" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M449 318v78m-39 10 40 17 40-17m-70 61c24 22 57 22 81 0" stroke="#9af0ff" stroke-width="8" stroke-linecap="round"/>
+  <!-- Armor and sea-crested shoulders -->
+  <path d="M343 470c-110 20-177 77-210 175l113 49 72-101 83 153 49-99 50 99 82-153 72 101 112-49c-33-98-100-155-210-175l-107 62-106-62Z" fill="url(#armor)" stroke="#78e5ff" stroke-width="8"/>
+  <path d="m450 530-82 68 38 145 45-40 45 40 39-145-85-68Z" fill="#0b3159" stroke="#c4f8ff" stroke-width="8"/>
+  <path d="M375 734c-33 56-45 132-33 218l108-72 108 72c12-86 0-162-33-218l-75 70-75-70Z" fill="url(#armor)" stroke="#70dcff" stroke-width="8"/>
+  <path d="M450 812v140m-145-315 47 26m243-26-47 26m-168-69 40 24m204-24-40 24" stroke="#c5faff" stroke-opacity=".78" stroke-width="8" stroke-linecap="round"/>
+  <!-- Trident held across the body -->
+  <path d="m173 408 472 477" stroke="url(#gold)" stroke-width="19" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="m179 401-45-65m49 68 7-78m-7 78 65-46" stroke="url(#gold)" stroke-width="13" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)"/>
+  <!-- Sea foam accents -->
+  <g fill="#8feaff" opacity=".85">
+    <circle cx="148" cy="587" r="7"/><circle cx="184" cy="618" r="5"/><circle cx="705" cy="537" r="8"/><circle cx="679" cy="579" r="5"/><circle cx="246" cy="911" r="6"/><circle cx="656" cy="923" r="7"/>
+  </g>
+</svg>
